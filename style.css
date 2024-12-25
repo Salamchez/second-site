@@ -39,7 +39,7 @@
        margin-left: 6px;
    }
    
-   .box-position {
+   .cards__position {
        width: 1200px;
        display: grid;
        margin: auto;
@@ -48,10 +48,9 @@
        grid-template-columns: repeat(4, 200px);
        grid-template-rows: repeat(2, 290px);
        gap: 3em 2em;
-       background-color: blueviolet;
    }
    
-   .full-card {
+   .cards__item {
        display: flex;
        flex-direction: column;
        background-color: rgba(255, 255, 255, 1);
@@ -59,13 +58,13 @@
        border-radius: 16px;
    }
    
-   .card_image {
-   border-radius: 10px;
-   width: 180px;
-   height: 180px;
+    .cards__image {
+        border-radius: 10px;
+        width: 180px;
+        height: 180px;
    }
    
-   .card-description {
+   .cards__description {
        margin-top: 10px;
        height: 100%;
        display: flex;
@@ -73,23 +72,40 @@
        justify-content: space-between;
    }
    
-   .card_action {
+   .cards__action {
        display: flex;
        justify-content: space-between;
-   
    }
    
-   .action__description {
+   .cards__action__description {
        display: flex;
        flex-direction: column;
        width: 87px;
        font-family: "poppins";
    }
    
-   .action__button {
+   .cards__current__bid {
+    font-family: Poppins;
+    font-size: 10.07px;
+    font-weight: 400;
+    color: rgba(148, 163, 184, 1);
+
+   }
+   .cards__description__left {
+
+   }
+
+   .cards__action__num {
+    font-family: Poppins;
+    font-size: 11.75px;
+    font-weight: 500;
+    line-height: 17.62px;
+   }
+
+   .cards__action__button {
        width: 87px;
        border-radius: 8px;
-       background-color: black;
+       background-color: rgb(22, 18, 18);
        color: white;
        display: flex;
        justify-content: center;
@@ -97,11 +113,16 @@
    }
    
    .place-bid {
-       color: white;
-       text-decoration: none;
+        font-family: Poppins;
+        font-size: 10.07px;
+        font-weight: 600;
+        line-height: 15.11px;
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+        text-transform: uppercase;
    }
    
-   .card_name {
+   .cards__name {
        font-family: "poppins";
        font-weight: 600;
        size: 15px;
@@ -111,8 +132,3 @@
        margin-top: 3px;
    }
    
-   .current_bid {
-       
-       
-   
-   }
