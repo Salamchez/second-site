@@ -57,24 +57,39 @@
        padding: 10px;
        border-radius: 16px;
    }
-   
-    .cards__image {
-        border-radius: 10px;
-        width: 180px;
-        height: 180px;
+
+   .block-image {
+    background-image: url(assets/images/image.png);
+    border-radius: 15px;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+   }
+
+   .block__time {
+    border-radius: 7px;
+    background-color: rgba(28, 29, 32, 0.35);
+    width: 83px;
+    height: 30px;
+    padding: 6.71px 10.07px 6.71px 10.07px;
+    font-family: Poppins;
+    font-size: 10.07px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
    }
    
    .cards__description {
        margin-top: 10px;
-       height: 100%;
        display: flex;
        flex-direction: column;
-       justify-content: space-between;
    }
    
    .cards__action {
        display: flex;
        justify-content: space-between;
+       margin-top: 10px;
    }
    
    .cards__action__description {
