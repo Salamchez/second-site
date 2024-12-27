@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+   }
+   body {
+       background-color: rgba(249, 249, 249, 1);
+   }
+   
+   header {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 45px;
+   }
+   h2 {
+       margin-top: 58px;
+       font-family: "poppins";
+       font-size: 32px;
+       font-weight: 600;
+   }
+   
+   .header__menu {
+       display: flex;
+       font-family: "manrope";
+       font-size: 11px;
+       font-weight: 600;
+       line-height: 16.51px;
+       letter-spacing: 0.15719418227672577px;
+   }
+   
+   .header__content {
+       display: flex;
+       border-style: solid;
+       border-radius: 10px;
+       margin-right: 15px;
+       padding: 10px;
+       gap: 6px;
+   }
+   
+   .cards {
+       width: 1200px;
+       display: grid;
+       margin: auto;
+       margin-top: 70px;
+       justify-content: center;
+       grid-template-columns: repeat(4, 200px);
+       grid-template-rows: repeat(2, 290px);
+       gap: 48px 29px;
+   }
+   
+   .card__item {
+       display: flex;
+       flex-direction: column;
+       background-color: rgba(255, 255, 255, 1);
+       padding: 10px;
+       border-radius: 16px;
+       box-shadow: 27.69px 8.39px 41.96px 0px rgba(199, 199, 199, 0.6);
+   }
+
+   .block-image {
+    background-image: url(assets/images/image.png);
+    border-radius: 15px;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+   }
+
+   .time {
+    border-radius: 7px;
+    background-color: rgba(28, 29, 32, 0.35);
+    width: 83px;
+    height: 30px;
+    padding: 6.71px 10.07px 6.71px 10.07px;
+    font-family: Poppins;
+    font-size: 10.07px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+   }
+   
+   .card__body {
+       margin-top: 10px;
+       display: flex;
+       flex-direction: column;
+   }
+   
+   .card__action {
+       display: flex;
+       justify-content: space-between;
+       margin-top: 10px;
+   }
+   
+   .card__price {
+       font-family: Poppins;
+       display: flex;
+       flex-direction: column;
+       width: 87px;
+       font-family: "poppins";
+   }
+   
+   .card__current__bid {
+    font-size: 10.07px;
+    font-weight: 400;
+    color: rgba(148, 163, 184, 1);
+   }
+
+   .card__action__num {
+    font-size: 11.75px;
+    font-weight: 500;
+    line-height: 17.62px;
+   }
+
+   .card__action__button {
+       width: 87px;
+       border-radius: 8px;
+       background-color: rgb(22, 18, 18);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-family: Poppins;
+        font-size: 10.07px;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+        text-decoration: none;
+        text-transform: uppercase;
+   }
+   
+   .card__name {
+       font-family: "poppins";
+       font-weight: 600;
+       size: 15px;
+   }
+   
+   .card-description--left {
+       margin-top: 3px;
+   }
+   
